@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configuration
-API_KEY = os.getenv('API_KEY')
+API_KEY = st.secrets["API_KEY"]
 SPORT = 'basketball_nba'
 REGIONS = 'us,eu'
 MARKETS = ['player_points', 'player_rebounds', 'player_assists']
