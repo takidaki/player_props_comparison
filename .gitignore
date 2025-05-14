@@ -35,3 +35,6 @@ ENV/
 
 # OS specific
 .DS_Store
+
+# Exclude specific files in odds_data, but keep the directory
+# odds_data/*.json
